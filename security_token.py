@@ -9,10 +9,10 @@ auth = HTTPTokenAuth(scheme='Bearer')
 
 # nama kelompok 
 # Arief Rachman (6A - 19090012) 
-# M. Rizqi Fauzi Maksum (6A = 19090132) 
+# M. Rizqi Fauzi Maksum (6A = 19090142) 
 tokens = {
     "secret-token-1": "19090012",
-    "secret-token-2": "19090132"
+    "secret-token-2": "19090142"
 }
 
 @auth.verify_token

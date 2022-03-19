@@ -16,7 +16,7 @@ dblogin = SQLAlchemy(app)
 auth = HTTPBasicAuth()
 # nama kelompok 
 # Arief Rachman (6A - 19090012) 
-# M. Rizqi Fauzi Maksum (6A = 19090132) 
+# M. Rizqi Fauzi Maksum (6A = 19090142) 
 class login(dblogin.Model):
     username = dblogin.Column(dblogin.String(80), unique=True, nullable=False, primary_key=True)
     password = dblogin.Column(dblogin.String(100))
